@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "nav-background": "url('images/3c90f0a2a0733a37cfae73337e1beb01.jpeg')",
+        "nav-background": "url('images/nav-back.png')",
         "banner": "url('images/banner.png') "
       }
     },
