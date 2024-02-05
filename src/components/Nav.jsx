@@ -3,7 +3,7 @@ import ProfileIcon from "./ProfileIcon";
 
 const Nav = ({profile}) => {
   return (
-    <div className="bg-nav-background opacity-[98%] h-[110px] flex justify-between items-center border border-[#000000]">
+    <div className="bg-[url('../public/images/nav-back.png')] opacity-[98%] h-[110px] flex justify-between items-center border border-[#000000]">
       <div className="mx-[123px] text-[24px] text-[#292D32] font-bold">
         aBit
       </div>

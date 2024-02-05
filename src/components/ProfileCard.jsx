@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileCard = () => {
   return (
-    <div className=" shadow-[2px_-1px_14px_0_rgba(0, 0, 0, 0.59)] absolute bottom-[-3rem] mx-[4rem] w-[571px] h-[234px] overflow-hidden flex bg-nav-background rounded-[24px]">
+    <div className=" shadow-[2px_-1px_14px_0_rgba(0, 0, 0, 0.59)] absolute bottom-[-3rem] mx-[4rem] w-[571px] h-[234px] overflow-hidden flex bg-[url('../public/images/nav-back.png')] rounded-[24px]">
       <img className="w-[234px]" src="/images/profile-img.jpeg" />
       <div className="flex flex-col mx-7 mt-6 gap-6">
         <div className="flex gap-7 items-center">

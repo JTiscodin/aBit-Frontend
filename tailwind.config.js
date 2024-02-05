@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "nav-background": "url('images/nav-back.png')",
-        "banner": "url('images/banner.png') "
+        "banner": "url('images/banner.png')"
       }
     },
   },
