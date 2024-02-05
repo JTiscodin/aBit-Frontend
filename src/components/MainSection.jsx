@@ -10,7 +10,7 @@ let stats = [
 
 const MainSection = () => {
   return (
-    <div className="py-[8vw] w-full ">
+    <div className="py-[8vw] w-full border-b-2">
       <div className="flex mx-[4rem] items-center justify-between">
         <div>
           <h1 className="text-3xl">Releases</h1>
@@ -26,7 +26,7 @@ const MainSection = () => {
                 <div className="w-[70px]">
                   {" "}
                   <h1 className=" text-[#565656] font-bold "> {e.num} </h1>
-                  <p className="text-[14px] font-light mt-3"> {e.text} </p>{" "}
+                  <p className="text-[14px] font-light mt-2"> {e.text} </p>{" "}
                 </div>
               </div>
             );
